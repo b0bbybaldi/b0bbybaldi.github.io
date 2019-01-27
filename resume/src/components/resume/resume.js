@@ -1,114 +1,100 @@
 import React, { Component } from 'react';
-export default class Resume extends Component {
+export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="resume" className="grey-section">
-        <div className="row section-intro">
-          <div className="col-twelve">
-            <h5>Resume</h5>
-            <h1>More of my credentials.</h1>
-            <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-          </div>      
-        </div>  
-        <div className="row resume-timeline">
-          <div className="col-twelve resume-header">
-            <h2>Work Experience</h2>
-          </div> 
-          <div className="col-twelve">
-            <div className="timeline-wrap">
-              <div className="timeline-block">
-                <div className="timeline-ico">
-                  <i className="fa fa-graduation-cap" />
-                </div>
-                <div className="timeline-header">
-                  <h3>UI Designer</h3>
-                  <p>July 2015 - Present</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>Awesome Studio</h4>
-                  <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                </div>
-              </div> 
-              <div className="timeline-block">
-                <div className="timeline-ico">
-                  <i className="fa fa-graduation-cap" />
-                </div>
-                <div className="timeline-header">
-                  <h3>Front-end Developer</h3>
-                  <p>July 2014 - June 2015</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>Super Cool Agency</h4>
-                  <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                </div>
-              </div> 
-              <div className="timeline-block">
-                <div className="timeline-ico">
-                  <i className="fa fa-graduation-cap" />
-                </div>
-                <div className="timeline-header">
-                  <h3>Web Designer</h3>
-                  <p>May 2013 - June 2014</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>Great Designs Studio</h4>
-                  <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                </div>
-              </div> 
-            </div>         
-          </div> 
-        </div> 
-        <div className="row resume-timeline">
-          <div className="col-twelve resume-header">
-            <h2>Education</h2>
-          </div> 
-          <div className="col-twelve">
-            <div className="timeline-wrap">
-              <div className="timeline-block">
-                <div className="timeline-ico">
-                  <i className="fa fa-briefcase" />
-                </div>
-                <div className="timeline-header">
-                  <h3>Master Degree</h3>
-                  <p>July 2015 - Present</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>University of Life</h4>
-                  <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                </div>
-              </div> 
-              <div className="timeline-block">
-                <div className="timeline-ico">
-                  <i className="fa fa-briefcase" />
-                </div>
-                <div className="timeline-header">
-                  <h3>Bachelor Degree</h3>
-                  <p>July 2014 - June 2015</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>State Design University</h4>
-                  <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                </div>
-              </div> 
-              <div className="timeline-block">
-                <div className="timeline-ico">
-                  <i className="fa fa-briefcase" />
-                </div>
-                <div className="timeline-header">
-                  <h3>Bachelor Degree</h3>
-                  <p>May 2013 - June 2014</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>Design College</h4>
-                  <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                </div>
-              </div> 
-            </div>       
-          </div> 
-        </div> 
-      </section> 
-  
+      <section id="resume">
+
+         <div className="row education">
+
+            <div className="three columns header-col">
+               <h1><span>Education</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
+              {
+                resumeData.education && resumeData.education.map((item)=>{
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <h3>{item.UniversityName}</h3>
+                          <p className="info">
+                          {item.specialization}
+                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                          <p>
+                          {item.Achievements}
+                          </p>
+                       </div>
+                    </div>
+                  )
+                })
+              }
+            </div>
+         </div>
+        <div className="row work">
+            <div className="three columns header-col">
+               <h1><span>Work</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
+              {
+                resumeData.work && resumeData.work.map((item) => {
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <h3>{item.CompanyName}</h3>
+                          <p className="info">
+                          {item.specialization}
+                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <p>
+                          {item.Achievements}
+                          </p>
+                       </div>
+
+                    </div>
+
+                  )
+                })
+              }
+            </div> 
+         </div>
+
+
+         <div className="row skill">
+
+            <div className="three columns header-col">
+               <h1><span>Skills</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
+
+               <p>
+               {resumeData.skillsDescription}
+               </p>
+
+          <div className="bars">
+
+             <ul className="skills">
+                {
+                  resumeData.skills && resumeData.skills.map((item) => {
+                    return(
+                      <li>
+                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+                      </span><em>{item.skillname}</em>
+                      </li>
+                    )
+                  })
+                }
+
+            </ul>
+
+          </div>
+
+        </div>
+
+         </div>
+
+      </section>
     );
   }
 }

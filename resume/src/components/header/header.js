@@ -3,27 +3,49 @@ export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <header>    
-        <div className="row">
-          <div className="top-bar">
-            <a className="menu-toggle" href="#"><span>Menu</span></a>
-            <div className="logo">
-              <a href="index.html">KARDS</a>
-            </div>          
-            <nav id="main-nav-wrap">
-              <ul className="main-navigation">
-                <li className="current"><a className="smoothscroll" href="#intro" title>Home</a></li>
-                <li><a className="smoothscroll" href="#about" title>About</a></li>
-                <li><a className="smoothscroll" href="#resume" title>Resume</a></li>
-                <li><a className="smoothscroll" href="#portfolio" title>Portfolio</a></li>
-                <li><a className="smoothscroll" href="#services" title>Services</a></li>          
-                <li><a className="smoothscroll" href="#contact" title>Contact</a></li>  
-                <li><a href="styles.html" title>Style Demo</a></li>       
-              </ul>
-            </nav>        
-          </div> 
-        </div>    
-      </header> 
+      <React.Fragment>
+      {/*generated code*/}
+      <header id="home">
+         <nav id="nav-wrap">
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <ul id="nav" className="nav">
+               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+               <li><a className="smoothscroll" href="#about">About</a></li>
+             <li><a className="smoothscroll" href="#resume">Resume</a></li>
+               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+               <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+
+         <div className="row banner">
+            <div className="banner-text">
+               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
+               <h3>I am a {resumeData.role}.{resumeData.roleDescription}
+               </h3>
+               <hr/>
+               <ul className="social">
+                  {
+                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                      return(
+                              <li key={item.name}>
+                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                              </li>
+                            )
+                          }
+                    )
+                  }
+               </ul>
+            </div>
+         </div>
+
+         <p className="scrolldown">
+            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+         </p>
+
+      </header>
+      </React.Fragment>
     );
   }
 }
