@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 export default class Testimonials extends Component {
   render() {
-    return (
-      <React.Fragment>
-      var NewComponent = React.createClass({
-  render: function() {
+    let resumeData = this.props.resumeData;
     return (
       <div>
         <section id="cta" className="grey-section">
@@ -14,7 +11,7 @@ export default class Testimonials extends Component {
               <p className="lead">
                 Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
                 Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
-                {/* Simply type the promocode in the box labeled “Promo Code” when placing your order. */}  
+                
               </p>
               <div className="action">
                 <a className="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
@@ -22,8 +19,7 @@ export default class Testimonials extends Component {
             </div>
           </div> {/* /cta-content */}
         </section> {/* /cta */} 
-        {/* services Section
-   ================================================== */}
+        
         <section id="services">
           <div className="overlay" />
           <div className="row section-intro">
@@ -32,7 +28,7 @@ export default class Testimonials extends Component {
               <h1>What Can I Do For You?</h1>
               <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
             </div>      
-          </div> {/* /section-intro */}
+          </div> 
           <div className="row services-content">
             <div id="owl-slider" className="owl-carousel services-list">
               <div className="service"> 
@@ -42,7 +38,7 @@ export default class Testimonials extends Component {
                   <p className="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
                   </p>
                 </div>             
-              </div> {/* /service */}
+              </div> 
               <div className="service"> 
                 <span className="icon"><i className="icon-window" /></span>                          
                 <div className="service-content"> 
@@ -50,7 +46,7 @@ export default class Testimonials extends Component {
                   <p className="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
                   </p>
                 </div>                            
-              </div> {/* /service */}
+              </div> 
               <div className="service">
                 <span className="icon"><i className="icon-paint-brush" /></span>                
                 <div className="service-content">
@@ -58,7 +54,7 @@ export default class Testimonials extends Component {
                   <p className="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
                   </p> 
                 </div>                               
-              </div> {/* /service */}
+              </div> 
               <div className="service">
                 <span className="icon"><i className="icon-toggles" /></span>                
                 <div className="service-content">
@@ -66,7 +62,7 @@ export default class Testimonials extends Component {
                   <p className="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
                   </p> 
                 </div>                
-              </div> {/* /service */}
+              </div> 
               <div className="service">
                 <span className="icon"><i className="icon-image" /></span>              
                 <div className="service-content">
@@ -74,7 +70,7 @@ export default class Testimonials extends Component {
                   <p className="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
                   </p> 
                 </div>                 
-              </div> {/* /service */}
+              </div> 
               <div className="service">
                 <span className="icon"><i className="icon-chat" /></span>                
                 <div className="service-content">
@@ -82,12 +78,11 @@ export default class Testimonials extends Component {
                   <p className="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
                   </p> 
                 </div>                 
-              </div> {/* /service */}
-            </div> {/* /services-list */}
-          </div> {/* /services-content */}
-        </section> {/* /services */}  
-        {/* stats Section
-   ================================================== */}
+              </div> 
+            </div> 
+          </div> 
+        </section>  
+        
         <section id="stats" className="count-up">
           <div className="row">
             <div className="col-twelve">
@@ -102,7 +97,7 @@ export default class Testimonials extends Component {
                   <h5 className="stat-title">
                     Projects Completed
                   </h5>
-                </div> {/* /stat */}          
+                </div>          
                 <div className="bgrid stat">
                   <div className="icon-part">
                     <i className="icon-users" />
@@ -113,7 +108,7 @@ export default class Testimonials extends Component {
                   <h5 className="stat-title">
                     Happy Clients
                   </h5>
-                </div> {/* /stat */}
+                </div> 
                 <div className="bgrid stat">
                   <div className="icon-part">
                     <i className="icon-badge" />
@@ -124,7 +119,7 @@ export default class Testimonials extends Component {
                   <h5 className="stat-title">
                     Awards Received
                   </h5>
-                </div> {/* /stat */}                  
+                </div>                  
                 <div className="bgrid stat">
                   <div className="icon-part">
                     <i className="icon-light-bulb" />
@@ -135,7 +130,7 @@ export default class Testimonials extends Component {
                   <h5 className="stat-title">
                     Crazy Ideas
                   </h5>
-                </div> {/* /stat */}
+                </div> 
                 <div className="bgrid stat">
                   <div className="icon-part">
                     <i className="icon-cup" />
@@ -146,7 +141,7 @@ export default class Testimonials extends Component {
                   <h5 className="stat-title">
                     Coffee Cups
                   </h5>
-                </div> {/* /stat */}
+                </div> 
                 <div className="bgrid stat">
                   <div className="icon-part">
                     <i className="icon-clock" />
@@ -157,17 +152,12 @@ export default class Testimonials extends Component {
                   <h5 className="stat-title">
                     Hours
                   </h5>
-                </div> {/* /stat */}
-              </div> {/* /stats-list */}
-            </div> {/* /twelve */}
-          </div> {/* /row */}
-        </section> {/* /stats */}
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </section> 
       </div>
-    );
-  }
-});
-      
-      </React.Fragment>
     );
   }
 }

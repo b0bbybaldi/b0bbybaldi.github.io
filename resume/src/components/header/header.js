@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     return (
-      <React.Fragment>
-      {/*generated code*/}
-      var NewComponent = React.createClass({
-  render: function() {
-    return (
-
       <header>    
         <div className="row">
           <div className="top-bar">
@@ -26,13 +21,9 @@ export default class Header extends Component {
                 <li><a href="styles.html" title>Style Demo</a></li>       
               </ul>
             </nav>        
-          </div> {/* /top-bar */} 
-        </div> {/* /row */}     
-      </header> {/* /header */}
-    );
-  }
-});
-      </React.Fragment>
+          </div> 
+        </div>    
+      </header> 
     );
   }
 }

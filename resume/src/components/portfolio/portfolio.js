@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 export default class Portfolio extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     return (
-      <React.Fragment>
-      var NewComponent = React.createClass({
-  render: function() {
-    return (
-
       <section id="portfolio">
         <div className="row section-intro">
           <div className="col-twelve">
@@ -14,10 +10,10 @@ export default class Portfolio extends Component {
             <h1>Check Out Some of My Works.</h1>
             <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
           </div>      
-        </div> {/* /section-intro*/} 
+        </div> 
         <div className="row portfolio-content">
           <div className="col-twelve">
-            {/* portfolio-wrapper */}
+            
             <div id="folio-wrapper" className="block-1-2 block-mob-full stack">
               <div className="bgrid folio-item">
                 <div className="item-wrap">
@@ -33,7 +29,7 @@ export default class Portfolio extends Component {
                     </div>                    
                   </a>
                 </div>                 
-              </div> {/* /folio-item */}
+              </div> 
               <div className="bgrid folio-item">
                 <div className="item-wrap">
                   <img src="images/portfolio/shutterbug.jpg" alt="Shutterbug" />
@@ -48,7 +44,7 @@ export default class Portfolio extends Component {
                     </div>                    
                   </a>
                 </div>
-              </div> {/* /folio-item */}
+              </div> 
               <div className="bgrid folio-item">
                 <div className="item-wrap">
                   <img src="images/portfolio/clouds.jpg" alt="Clouds" />
@@ -63,7 +59,7 @@ export default class Portfolio extends Component {
                     </div>                    
                   </a>
                 </div>
-              </div> {/* /folio-item */}
+              </div> 
               <div className="bgrid folio-item">
                 <div className="item-wrap">
                   <img src="images/portfolio/beetle.jpg" alt="Beetle" />
@@ -78,7 +74,7 @@ export default class Portfolio extends Component {
                     </div>                    
                   </a>
                 </div>
-              </div> {/* /folio-item */}     
+              </div>    
               <div className="bgrid folio-item">
                 <div className="item-wrap">
                   <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse" />
@@ -93,7 +89,7 @@ export default class Portfolio extends Component {
                     </div>                    
                   </a>
                 </div>
-              </div> {/* /folio-item */}
+              </div> 
               <div className="bgrid folio-item">
                 <div className="item-wrap">
                   <img src="images/portfolio/salad.jpg" alt="Salad" />
@@ -109,8 +105,7 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* /folio-item */}   
-              {/* modal popups - begin
-              ============================================================= */}
+              
               <div id="modal-01" className="popup-modal slider mfp-hide"> 
                 <div className="media">
                   <img src="images/portfolio/modals/m-liberty.jpg" alt />
@@ -124,7 +119,7 @@ export default class Portfolio extends Component {
                   <a href="http://www.behance.net">Details</a>
                   <a href="#" className="popup-modal-dismiss">Close</a>
                 </div>          
-              </div> {/* /modal-01 */}
+              </div> 
               <div id="modal-02" className="popup-modal slider mfp-hide"> 
                 <div className="media">
                   <img src="images/portfolio/modals/m-shutterbug.jpg" alt />
@@ -138,7 +133,7 @@ export default class Portfolio extends Component {
                   <a href="http://www.behance.net">Details</a>
                   <a href="#" className="popup-modal-dismiss">Close</a>
                 </div>          
-              </div> {/* /modal-02 */}
+              </div> 
               <div id="modal-03" className="popup-modal slider mfp-hide"> 
                 <div className="media">
                   <img src="images/portfolio/modals/m-clouds.jpg" alt />
@@ -152,7 +147,7 @@ export default class Portfolio extends Component {
                   <a href="http://www.behance.net">Details</a>
                   <a href="#" className="popup-modal-dismiss">Close</a>
                 </div>          
-              </div> {/* /modal-03 */}
+              </div> 
               <div id="modal-04" className="popup-modal slider mfp-hide"> 
                 <div className="media">
                   <img src="images/portfolio/modals/m-beetle.jpg" alt />
@@ -166,7 +161,7 @@ export default class Portfolio extends Component {
                   <a href="http://www.behance.net">Details</a>
                   <a href="#" className="popup-modal-dismiss">Close</a>
                 </div>          
-              </div> {/* /modal-04 */}
+              </div> 
               <div id="modal-05" className="popup-modal slider mfp-hide"> 
                 <div className="media">
                   <img src="images/portfolio/modals/m-lighthouse.jpg" alt />
@@ -180,7 +175,7 @@ export default class Portfolio extends Component {
                   <a href="http://www.behance.net">Details</a>
                   <a href="#" className="popup-modal-dismiss">Close</a>
                 </div>          
-              </div> {/* /modal-05 */}
+              </div> 
               <div id="modal-06" className="popup-modal slider mfp-hide"> 
                 <div className="media">
                   <img src="images/portfolio/modals/m-salad.jpg" alt />
@@ -194,17 +189,12 @@ export default class Portfolio extends Component {
                   <a href="http://www.behance.net">Details</a>
                   <a href="#" className="popup-modal-dismiss">Close</a>
                 </div>          
-              </div> {/* /modal-06 */}
-              {/* modal popups - end
-              ============================================================= */}
-            </div> {/* /portfolio-wrapper */} 
-          </div>  {/* /twelve */}   
-        </div> {/* /portfolio-content */} 
-      </section> {/* /portfolio */}
-    );
-  }
-});
-      </React.Fragment>
+              </div> 
+              
+            </div>
+          </div>    
+        </div> 
+      </section> 
     );
   }
 }

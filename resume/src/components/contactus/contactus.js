@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 export default class Contactus extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     return (
-      <React.Fragment>
-      var NewComponent = React.createClass({
-  render: function() {
-    return (
-
       <section id="contact">
         <div className="row section-intro">
           <div className="col-twelve">
@@ -14,10 +10,10 @@ export default class Contactus extends Component {
             <h1>I'd Love To Hear From You.</h1>
             <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
           </div> 
-        </div> {/* /section-intro */}
+        </div> 
         <div className="row contact-form">
           <div className="col-twelve">
-            {/* form */}
+            
             <form name="contactForm" id="contactForm" method="post" action>
               <fieldset>
                 <div className="form-field">
@@ -44,16 +40,16 @@ export default class Contactus extends Component {
                   </div>
                 </div>
               </fieldset>
-            </form> {/* Form End */}
-            {/* contact-warning */}
+            </form> 
+            
             <div id="message-warning">              
             </div>            
-            {/* contact-success */}
+            
             <div id="message-success">
               <i className="fa fa-check" />Your message was sent, thank you!<br />
             </div>
-          </div> {/* /col-twelve */}
-        </div> {/* /contact-form */}
+          </div> 
+        </div> 
         <div className="row contact-info">
           <div className="col-four tab-full">
             <div className="icon">
@@ -85,14 +81,8 @@ export default class Contactus extends Component {
               Fax: (+63) 555 0101
             </p>
           </div>
-        </div> {/* /contact-info */}
-      </section> {/* /contact */}
-    );
-  }
-});
-
-      
-      </React.Fragment>
+        </div> 
+      </section> 
     );
   }
 }

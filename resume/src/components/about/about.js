@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 export default class About extends Component {
   render() {
-    return (
-      <React.Fragment>
-      var NewComponent = React.createClass({
-  render: function() {
+    let resumeData = this.props.resumeData;
     return (
       <div>
         <section id="intro">   
@@ -21,7 +18,7 @@ export default class About extends Component {
                 <a className="button stroke smoothscroll" href="#about" title>More About Me</a>
               </div>  
             </div>          
-          </div> {/* /intro-content */} 
+          </div> 
           <ul className="intro-social">        
             <li><a href="#"><i className="fa fa-facebook" /></a></li>
             <li><a href="#"><i className="fa fa-behance" /></a></li>
@@ -30,8 +27,7 @@ export default class About extends Component {
             <li><a href="#"><i className="fa fa-instagram" /></a></li>
           </ul> {/* /intro-social */}       
         </section> {/* /intro */}
-        {/* about section
-   ================================================== */}
+      
         <section id="about">  
           <div className="row section-intro">
             <div className="col-twelve">
@@ -42,7 +38,7 @@ export default class About extends Component {
                 <p className="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
               </div>        
             </div>      
-          </div> {/* /section-intro */}
+          </div> 
           <div className="row about-content">
             <div className="col-six tab-full">
               <h3>Profile</h3>
@@ -68,7 +64,7 @@ export default class About extends Component {
                   <strong>Email:</strong>
                   <span>me@kardswebsite.com</span>
                 </li>
-              </ul> {/* /info-list */}
+              </ul> 
             </div>
             <div className="col-six tab-full">
               <h3>Skills</h3>
@@ -94,7 +90,7 @@ export default class About extends Component {
                   <div className="progress percent75"><span>75%</span></div>
                   <strong>Wordpress</strong>
                 </li>
-              </ul> {/* /skill-bars */}   
+              </ul>   
             </div>
           </div>
           <div className="row button-section">
@@ -103,12 +99,8 @@ export default class About extends Component {
               <a href="#" title="Download CV" className="button button-primary">Download CV</a>
             </div>      
           </div>
-        </section> {/* /process*/}
+        </section> 
       </div>
-    );
-  }
-});
-      </React.Fragment>
     );
   }
 }

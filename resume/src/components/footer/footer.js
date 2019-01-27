@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 export default class Footer extends Component {
   render() {
-    return (
-      <React.Fragment>
-      var NewComponent = React.createClass({
-  render: function() {
+    let resumeData = this.props.resumeData;
     return (
 
       <footer>
@@ -27,13 +24,8 @@ export default class Footer extends Component {
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#top"><i className="fa fa-long-arrow-up" /></a>
           </div>
-        </div> {/* /row */}       
-      </footer>
-    );
-  }
-});
-
-      </React.Fragment>
+        </div>       
+      </footer>     
     );
   }
 }
