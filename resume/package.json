@@ -5,6 +5,7 @@
   "dependencies": {
     "fittext": "^1.0.1",
     "flexslider": "^2.7.1",
+    "gh-pages": "^2.0.1",
     "magnific-popup": "^1.1.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
