@@ -2,9 +2,9 @@ let resumeData = {
   "imagebaseurl": "https://b0bbybaldi.github.io/",
   "name": "Roberto Baldizon",
   "role": "CEO & Founder",
-  "linkedinId": "b0bbybaldi",
-  "skypeid": "rcbaldizon",
-  "roleDescription": " Used to getting my hands dirty in the field as a businessman, technology consultant, and engineer experienced in web, software, and energy systems designs to find tailored technology solutions worldwide.",
+  "linkedinId": " b0bbybaldi",
+  "skypeid": " rcbaldizon",
+  "roleDescription": " used to getting my hands dirty in the field as a businessman, technology consultant, and engineer experienced in web, software, and energy systems designs to find tailored technology solutions worldwide.",
   "socialLinks": [
     {
       "name": "linkedin",
@@ -35,16 +35,6 @@ let resumeData = {
       "name": "twitter",
       "url": "www.twitter.com/b0bbybaldi",
       "className": "fa fa-twitter"
-    },
-    {
-      "name": "medium",
-      "url": "https://medium.com/@b0bbybaldi",
-      "className": "fa fa-medium"
-    },
-    {
-      "name": "mail",
-      "mailto": "rcbaldizon@gmail.com",
-      "className": "fa fa-mail"
     }
 
   ],
@@ -53,78 +43,143 @@ let resumeData = {
   "website": "https://b0bbybaldi.github.io",
   "education": [
     {
-      "UniversityName": "Mumbai University",
-      "specialization": "Some specialization",
-      "MonthOfPassing": "Jan",
-      "YearOfPassing": "2018",
-      "Achievements": "Some Achievements"
+      "UniversityName": "The Pennsylvania State University",
+      "specialization": "BSc in Energy Business and Finance, Energy Systems Option",
+      "MonthOfPassing": "",
+      "YearOfPassing": "2015",
+      "Achievements": "Minors in Energy Engineering, Mining Engineering, and Petroleum and Natural Gas Engineering"
     },
     {
-      "UniversityName": "Some University",
-      "specialization": "Some specialization",
-      "MonthOfPassing": "Jan",
+      "UniversityName": "INCAE & Georgetown",
+      "specialization": "Certificates in Hospital and Health System Administration",
+      "MonthOfPassing": "",
+      "YearOfPassing": "2016",
+      "Achievements": ""
+    },
+    {
+      "UniversityName": "The Pennsylvania State University",
+      "specialization": "Graduate Certificate in Solar Energy",
+      "MonthOfPassing": "",
+      "YearOfPassing": "2017",
+      "Achievements": ""
+    },
+    {
+      "UniversityName": "Harvard Business School Online",
+      "specialization": "Certificates in Economics for Managers, Financial Accounting, Economics for Managers, Disruptive Strategy, Leading with Finance, Entrepreneurship Essentials",
+      "MonthOfPassing": "",
       "YearOfPassing": "2018",
-      "Achievements": "Some Achievements"
+      "Achievements": ""
+    },
+    {
+      "UniversityName": "University of California at Berkeley",
+      "specialization": "Coding Bootcamp",
+      "MonthOfPassing": "",
+      "YearOfPassing": "2018",
+      "Achievements": ""
     }
   ],
   "work": [
     {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
-      "MonthOfLeaving": "Jan",
-      "YearOfLeaving": "2018",
-      "Achievements": "Some Achievements"
+      "CompanyName": "Belize Natural Energy",
+      "specialization": "Production Intern",
+      "MonthOfLeaving": "Aug",
+      "YearOfLeaving": "2015",
+      "Achievements": "Gained experience in Production Engineering, Business Strategy and DEvelopment, Reservoir Engineering, Corporate Finance, Petroleum Engineering, Project Management, Supply Chain Management."
     },
     {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
-      "MonthOfLeaving": "Jan",
-      "YearOfLeaving": "2018",
-      "Achievements": "Some Achievements"
+      "CompanyName": "Supermart",
+      "specialization": "Business Strategy Consultant",
+      "MonthOfLeaving": "",
+      "YearOfLeaving": "",
+      "Achievements": "Gained experience in brand creation, popularization, and food retail store design."
+    },
+    {
+      "CompanyName": "Fotolab",
+      "specialization": "Business Strategy Consultant",
+      "MonthOfLeaving": "",
+      "YearOfLeaving": "",
+      "Achievements": "Gained experience in inventory optimization, business model pivoting, marketing, branding, web-development, and software design and development."
+    },
+    {
+      "CompanyName": "Centro de Servicio Peten",
+      "specialization": "Director of Business Development",
+      "MonthOfLeaving": "",
+      "YearOfLeaving": "",
+      "Achievements": "Gained experience forming mutual benefit partnerships, finding suppliers, remodelling tire and mechanic shops, creating promotions, and increasing revenues by seeking new opportunities and clients in the market."
+    },
+    {
+      "CompanyName": "Hospital Privado de Peten",
+      "specialization": "Technology Consultant",
+      "MonthOfLeaving": "",
+      "YearOfLeaving": "",
+      "Achievements": "Gained experience in medical equipment selection, inventory optimization, hospital management, and health system automatization and system development. "
+    },
+    {
+      "CompanyName": "Luszol",
+      "specialization": "CEO & Founder",
+      "MonthOfLeaving": "",
+      "YearOfLeaving": "",
+      "Achievements": "Gained experience founding company, installing multiple photovoltaic projects, designing and patenting an invention adjusted to local market, entering markets in the Caribbean, Central America, and the United States, and formed valuable partnerships while finding proper product market fit and proper business development for market needs with local partners."
+    },
+    {
+      "CompanyName": "Silibrain",
+      "specialization": "CEO & Founder",
+      "MonthOfLeaving": "",
+      "YearOfLeaving": "",
+      "Achievements": "Gained experience in fullstack website, application, and program design and development, acquiring customers, and creating products, and finding products that adjust to local markets to comply with the company mission of bringing technological advancements to more places in the world."
     }
+    
   ],
-  "skillsDescription": "Your skills here",
+  "skillsDescription": "",
   "skills": [
     {
-      "skillname": "HTML5"
+      "skillname": "Business Strategy and Development"
     },
     {
-      "skillname": "CSS"
+      "skillname": "Software Design and Development"
     },
     {
-      "skillname": "Reactjs"
+      "skillname": "Energy System Design and Development"
+    },
+    {
+      "skillname": "Design and lead marketing campaigns"
+    },
+    {
+      "skillname": "Healthcare Institution Management"
+    },
+    {
+      "skillname": "Data Analysis and Interpration"
     }
   ],
   "portfolio": [
     {
-      "name": "project1",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
+      "name": "Heal.Me",
+      "description": "Web react firebase application for finding physicians.",
+      "imgurl": "images/portfolio/heal.png",
+      "link": "https://github.com/b0bbybaldi/healme"
     },
     {
-      "name": "project2",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project.jpg"
+      "name": "Rent-All",
+      "description": "Web react mySQL application and platform for renting.",
+      "imgurl": "images/portfolio/rent.png",
+      "link": "https://github.com/b0bbybaldi/Rent-All"
     },
     {
-      "name": "project3",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project2.png"
+      "name": "MD Anonymous",
+      "description": "Web react MongoDB application to hold medical records.",
+      "imgurl": "images/portfolio/anonymous.png",
+      "link": "https://github.com/b0bbybaldi/anonymous"
     },
     {
-      "name": "project4",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
+      "name": "Hospital Privado de Peten Desktop Patient Manager",
+      "description": "Windows C# application for managing hospitalized patients.",
+      "imgurl": "images/portfolio/hospital.png",
+      "link": "https://github.com/b0bbybaldi/Rent-All"
     }
   ],
   "testimonials": [
     {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
-    },
-    {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
+      "description": "https://medium.com/@b0bbybaldi"
     }
   ]
 }
