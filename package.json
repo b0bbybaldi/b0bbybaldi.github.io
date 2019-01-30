@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://b0bbybaldi.github.io/portfolio",
+  "homepage": "https://b0bbybaldi.github.io/",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
