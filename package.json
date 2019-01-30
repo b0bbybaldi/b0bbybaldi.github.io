@@ -6,7 +6,6 @@
   "dependencies": {
     "fittext": "^1.0.1",
     "flexslider": "^2.7.1",
-    "gh-pages": "^2.0.1",
     "magnific-popup": "^1.1.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -31,6 +30,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "react-scripts": "1.0.7",
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
