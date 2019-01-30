@@ -89,42 +89,42 @@ let resumeData = {
     {
       "CompanyName": "Supermart",
       "specialization": "Business Strategy Consultant",
-      "MonthOfLeaving": "",
+      "MonthOfLeaving": "Present",
       "YearOfLeaving": "",
       "Achievements": "Gained experience in brand creation, popularization, and food retail store design."
     },
     {
       "CompanyName": "Fotolab",
       "specialization": "Business Strategy Consultant",
-      "MonthOfLeaving": "",
+      "MonthOfLeaving": "Present",
       "YearOfLeaving": "",
       "Achievements": "Gained experience in inventory optimization, business model pivoting, marketing, branding, web-development, and software design and development."
     },
     {
       "CompanyName": "Centro de Servicio Peten",
       "specialization": "Director of Business Development",
-      "MonthOfLeaving": "",
+      "MonthOfLeaving": "Present",
       "YearOfLeaving": "",
       "Achievements": "Gained experience forming mutual benefit partnerships, finding suppliers, remodelling tire and mechanic shops, creating promotions, and increasing revenues by seeking new opportunities and clients in the market."
     },
     {
       "CompanyName": "Hospital Privado de Peten",
       "specialization": "Technology Consultant",
-      "MonthOfLeaving": "",
+      "MonthOfLeaving": "Present",
       "YearOfLeaving": "",
       "Achievements": "Gained experience in medical equipment selection, inventory optimization, hospital management, and health system automatization and system development. "
     },
     {
       "CompanyName": "Luszol",
       "specialization": "CEO & Founder",
-      "MonthOfLeaving": "",
+      "MonthOfLeaving": "Present",
       "YearOfLeaving": "",
       "Achievements": "Gained experience founding company, installing multiple photovoltaic projects, designing and patenting an invention adjusted to local market, entering markets in the Caribbean, Central America, and the United States, and formed valuable partnerships while finding proper product market fit and proper business development for market needs with local partners."
     },
     {
       "CompanyName": "Silibrain",
       "specialization": "CEO & Founder",
-      "MonthOfLeaving": "",
+      "MonthOfLeaving": "Present",
       "YearOfLeaving": "",
       "Achievements": "Gained experience in fullstack website, application, and program design and development, acquiring customers, and creating products, and finding products that adjust to local markets to comply with the company mission of bringing technological advancements to more places in the world."
     }
