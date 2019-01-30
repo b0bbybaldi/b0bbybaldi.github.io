@@ -1,1 +1,1 @@
-# reactportfolio
+permalink: /index.html
