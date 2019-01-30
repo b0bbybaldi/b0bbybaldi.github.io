@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://b0bbybaldi.github.io/Portfolio",
   "dependencies": {
-    "asar": "^0.14.6",
     "fittext": "^1.0.1",
     "flexslider": "^2.7.1",
     "gh-pages": "^2.0.1",
@@ -36,9 +35,7 @@
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.4",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
+    "babel-loader": "^8.0.4"
   },
   "presets": [
     "@babel/preset-env",
