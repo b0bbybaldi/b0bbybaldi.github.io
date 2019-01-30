@@ -18,7 +18,7 @@ export default class Testimonials extends Component {
                         <li>
                           <blockquote>
                           <h1>
-                            <a href="https://medium.com/@b0bbybaldi">
+                            <a href="https://medium.com/@b0bbybaldi" target="_blank" rel="noopener noreferrer">
                             Check Out my Medium Blog !
                             </a>
                           </h1>

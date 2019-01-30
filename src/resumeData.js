@@ -174,7 +174,7 @@ let resumeData = {
       "name": "Hospital Privado de Peten Desktop Patient Manager",
       "description": "Windows C# application for managing hospitalized patients.",
       "imgurl": "images/portfolio/hospital.png",
-      "link": "https://github.com/b0bbybaldi/Rent-All"
+      "link": "https://github.com/Silibrain/winacctmngrpetenhospital"
     }
   ],
   "testimonials": [
