@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://b0bbybaldi.github.io/portfolio",
   "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "fittext": "^1.0.1",
     "flexslider": "^2.7.1",
     "magnific-popup": "^1.1.0",
