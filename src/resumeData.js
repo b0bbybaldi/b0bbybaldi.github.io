@@ -1,7 +1,7 @@
 let resumeData = {
   "imagebaseurl": "https://b0bbybaldi.github.io/",
   "name": "Roberto Baldizon",
-  "role": "CEO & Founder",
+  "role": "Founder",
   "linkedinId": " b0bbybaldi",
   "skypeid": " rcbaldizon",
   "roleDescription": " used to getting my hands dirty in the field as a businessman, technology consultant, and engineer experienced in web, software, and energy systems designs to find tailored technology solutions worldwide.",
@@ -39,7 +39,7 @@ let resumeData = {
 
   ],
   "aboutme": " I am originally from Guatemala, where I went to high school, but I feel comfortable anywhere in the world and think of it as my home. I speak 3 languages fluently, and one conversationally, not taking into account the programming languages that I also know. I'm passionate about technology, science, and their business applications for generating postive economic and social impact globally.",
-  "address": "San Francisco, CA",
+  "address": "Guatemala City, Guatemala",
   "website": "https://b0bbybaldi.github.io",
   "education": [
     {
@@ -73,6 +73,13 @@ let resumeData = {
     {
       "UniversityName": "University of California at Berkeley",
       "specialization": "Coding Bootcamp",
+      "MonthOfPassing": "",
+      "YearOfPassing": "2018",
+      "Achievements": ""
+    },
+    {
+      "UniversityName": "University of Columbia",
+      "specialization": "Courses in Artificial Intelligence, Machine Learning, and Data Science.",
       "MonthOfPassing": "",
       "YearOfPassing": "2018",
       "Achievements": ""
@@ -116,14 +123,14 @@ let resumeData = {
     },
     {
       "CompanyName": "Luszol",
-      "specialization": "CEO & Founder",
+      "specialization": "Founder",
       "MonthOfLeaving": "Present",
       "YearOfLeaving": "",
       "Achievements": "Gained experience founding company, installing multiple photovoltaic projects, designing and patenting an invention adjusted to local market, entering markets in the Caribbean, Central America, and the United States, and formed valuable partnerships while finding proper product market fit and proper business development for market needs with local partners."
     },
     {
       "CompanyName": "Silibrain",
-      "specialization": "CEO & Founder",
+      "specialization": "Founder",
       "MonthOfLeaving": "Present",
       "YearOfLeaving": "",
       "Achievements": "Gained experience in fullstack website, application, and program design and development, acquiring customers, and creating products, and finding products that adjust to local markets to comply with the company mission of bringing technological advancements to more places in the world."
